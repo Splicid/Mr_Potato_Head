@@ -26,7 +26,7 @@ h1 {
 /* Insert CSS for eyes below this line*/
 
 /* Insert CSS for mouth below this line*/
-
+#mouth_image{ top: 200px; left: 120px;}
 /* Insert CSS for nose below this line*/
 
 /* Insert CSS for eyebrows below this line*/
@@ -50,3 +50,17 @@ h1 {
 /* Insert CSS for hatflower below this line*/
 
 /* Insert CSS for boosters below this line*/
+
+
+.jumpy {
+	animation: colors 5s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes colors {
+	0%   {background-color: blue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+}
